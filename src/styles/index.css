@@ -10,3 +10,9 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.caja {
+    width: 600px;
+}
+.carta {
+    background-color: rgb(171, 167, 167);
+}

@@ -23,20 +23,20 @@ const Elementos = () => {
         setTexto(e.target.value);
     };
 	return (
-        <>
-            <div>
+        <div className="caja container mt-5">
+            <div className="carta card">
                 <h1>TAREAS</h1>
                 <input type="text" value={texto} onChange={handleChange} onKeyDown={agregarTarea} />
                 
                 <ul>{tareas.map((item, index) => (
                         <p key={index}>{item}
-                        <button onClick={() => eliminarTarea(index)}>X</button></p>
+                        <button className="btn-sm btn-secondary rounded-pill ms-auto" onClick={() => eliminarTarea(index)}>X</button></p>
                     ))}
                 </ul>
 
             </div>
         
-        </>
+        </div>
 	);
 };
 
