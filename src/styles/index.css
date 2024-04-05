@@ -41,6 +41,7 @@
 }
 .pie {
     font-size: 15px;
+    border-top: 2px solid rgb(196, 192, 192);
 }
 .cajita {
     border-top: 2px solid rgb(196, 192, 192);

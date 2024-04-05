@@ -40,7 +40,7 @@ const Elementos = () => {
                         
                     ))}
                 </ul>
-                <p className="pie text-start m-2">{counter} items left</p>
+                <p className="pie text-start p-2">{counter} items left</p>
             </div>
         
         </div>
